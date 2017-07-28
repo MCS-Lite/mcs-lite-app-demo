@@ -1,3 +1,7 @@
+# mcs-lite-app-demo [![Github Tag][githubTag-badge]][githubTag] [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)][dockerhub] [![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)][dockerhub]
+
+> Quick demo for mcs-lite-app: [mcs-lite-app.now.sh](https://mcs-lite-app.now.sh)
+
 ## Deploy to Now.sh
 
 > One click deploys to △ now
@@ -57,3 +61,7 @@ $ now alias
 $ now ls
 $ now rm [url]
 ```
+
+[githubTag-badge]: https://img.shields.io/github/tag/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
+[githubTag]: https://github.com/MCS-Lite/mcs-lite-app-demo/releases
+[dockerhub]: https://hub.docker.com/r/mcslite/mcs-lite-app/
