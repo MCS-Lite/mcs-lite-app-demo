@@ -20,7 +20,11 @@ $ docker build -t mcslite/mcs-lite-app .
 Or, directly pull the image from [Dockerhub](https://hub.docker.com/r/mcslite/mcs-lite-app/):
 
 ```
+# Latest
 $ docker pull mcslite/mcs-lite-app:latest
+
+# Or, specific version tag
+$ docker pull mcslite/mcs-lite-app:1.0.6
 ```
 
 #### Step 2: Run
@@ -32,6 +36,11 @@ $ docker run --rm -p 3000:3000 mcslite/mcs-lite-app
 #### Step 3: \[Option\] Push new images to the Dockerhub
 
 ```
+# Recommend to use AUTOMATED BUILD
+git tag 1.0.x
+git push
+
+# Manually
 $ docker push mcslite/mcs-lite-app
 ```
 
