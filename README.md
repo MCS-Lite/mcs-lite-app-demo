@@ -8,6 +8,13 @@
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/MCS-Lite/mcs-lite-app-demo)
 
+
+| **Step 1** | **Step 2** | **Step 3** |  **Step 4** |
+|-----|-----|-----|-----|
+|Click button |Add token and use Docker| Get your Url | Building |
+| ![step1](./docs/1.png) | ![step2](./docs/2.png) | ![step3](./docs/3.png) | ![step4](./docs/4.png) |
+
+
 ----
 
 ## Docker Support
