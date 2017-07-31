@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "mcs-lite-app-demo",
+  "license": "MIT",
+  "now": {
+    "alias": "mcs-lite-app",
+    "type": "docker"
+  }
+}
