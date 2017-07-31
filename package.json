@@ -3,7 +3,11 @@
   "name": "mcs-lite-app-demo",
   "license": "MIT",
   "now": {
-    "alias": "mcs-lite-app",
+    "alias": [
+      "mcs-lite-app",
+      "mcs-lite",
+      "mcslite"
+    ],
     "type": "docker"
   }
 }
