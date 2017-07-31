@@ -67,6 +67,9 @@ $ now alias
 # Step 3: Remove old deploy
 $ now ls
 $ now rm [url]
+
+# Step 4: [option] scale
+$ now scale mcs-lite-app.now.sh 1
 ```
 
 [githubTag-badge]: https://img.shields.io/github/tag/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
