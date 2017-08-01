@@ -1,4 +1,4 @@
-# mcs-lite-app-demo [![Github Tag][githubTag-badge]][githubTag] [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)][dockerhub] [![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)][dockerhub]
+# mcs-lite-app-demo [![TravisCI](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo.svg?branch=master)](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo) [![Github Tag][githubTag-badge]][githubTag] [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)][dockerhub] [![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)][dockerhub]
 
 > Quick demo for mcs-lite-app: [mcs-lite-app.now.sh](https://mcs-lite-app.now.sh)
 
@@ -62,6 +62,7 @@ $ docker push mcslite/mcs-lite-app
 $ now
 
 # Step 2: Setup alias
+$ now alias ls
 $ now alias
 
 # Step 3: Remove old deploy
