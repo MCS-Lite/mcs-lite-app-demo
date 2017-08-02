@@ -73,6 +73,13 @@ $ now rm [url]
 $ now scale mcs-lite-app.now.sh 1
 ```
 
+## Requirements
+
+-   node >= 8.2.1
+-   npm >= 5.3.0
+-   yarn >= 0.27.5
+
+
 [githubTag-badge]: https://img.shields.io/github/tag/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
 [githubTag]: https://github.com/MCS-Lite/mcs-lite-app-demo/releases
 [dockerhub]: https://hub.docker.com/r/mcslite/mcs-lite-app/

@@ -9,5 +9,10 @@
       "mcslite"
     ],
     "type": "docker"
+  },
+  "devDependencies": {
+    "await-url": "^0.3.0",
+    "now": "^7.3.0",
+    "now-purge": "^0.0.14"
   }
 }
