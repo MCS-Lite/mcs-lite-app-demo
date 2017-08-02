@@ -1,5 +1,7 @@
 # mcs-lite-app-demo [![TravisCI](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo.svg?branch=master)](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo) [![Github Tag][githubTag-badge]][githubTag] [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)][dockerhub] [![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)][dockerhub]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MCS-Lite/mcs-lite-app-demo.svg)](https://greenkeeper.io/)
+
 > Quick demo for mcs-lite-app: [mcs-lite-app.now.sh](https://mcs-lite-app.now.sh)
 
 ## Deploy to Now.sh
