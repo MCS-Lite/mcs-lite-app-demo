@@ -28,7 +28,7 @@ after_success:
 
   # 2. Alias and purge
   - now alias set "$URL" "$ALIAS" --token $NOW_TOKEN
-  - now-purge -t $NOW_TOKEN
+  - now-purge -t $NOW_TOKEN --team $TEAM
 
   # 3. Scale to 1
   - now scale $ALIAS 1 --token $NOW_TOKEN

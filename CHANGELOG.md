@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- feat(travis): add CD script
+- feat(travis): add Continuous delivery script to travis
 
 ## 1.0.6 (2017-07-31)
 
