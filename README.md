@@ -41,7 +41,7 @@ $ docker pull mcslite/mcs-lite-app:1.0.6
 #### Step 2: Run
 
 ```
-$ docker run --rm -it -p 3000:3000 mcslite/mcs-lite-app:1.0.6
+$ docker run --rm -it -p 3000:3000 -p 8000:8000 mcslite/mcs-lite-app:1.0.6
 ```
 
 #### Step 3: \[Option\] Push new images to the Dockerhub

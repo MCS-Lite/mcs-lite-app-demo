@@ -10,5 +10,5 @@ RUN curl -L $RELEASE_URL | tar zx --strip-components 2
 RUN ls -A
 
 # Expose
-EXPOSE 3000
+EXPOSE 3000 8000
 ENTRYPOINT ["npm", "start"]
