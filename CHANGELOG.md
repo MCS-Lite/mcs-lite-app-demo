@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.0.7 (2017-08-04)
+
+- feat(Image): add support for wss.
+- docs(README): mark now.sh as demo purposes only.
+
 ## 1.0.6 (2017-08-03)
 
 - feat(travis): add Continuous delivery script to travis

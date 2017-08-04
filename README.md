@@ -2,6 +2,8 @@
 
 > Quick demo for mcs-lite-app: [mcs-lite-app.now.sh](https://mcs-lite-app.now.sh)
 
+> Note: For demonstration purposes **ONLY**. The websocket feature do not work on now.sh.
+
 ## Deploy to Now.sh
 
 > One click deploys to △ now
@@ -35,13 +37,13 @@ Or, directly pull the image from [Dockerhub](https://hub.docker.com/r/mcslite/mc
 $ docker pull mcslite/mcs-lite-app:latest
 
 # Or, specific version tag
-$ docker pull mcslite/mcs-lite-app:1.0.6
+$ docker pull mcslite/mcs-lite-app:1.0.7
 ```
 
 #### Step 2: Run
 
 ```
-$ docker run --rm -it -p 3000:3000 -p 8000:8000 mcslite/mcs-lite-app:1.0.6
+$ docker run --rm -it -p 3000:3000 -p 8000:8000 mcslite/mcs-lite-app:1.0.7
 ```
 
 #### Step 3: \[Option\] Push new images to the Dockerhub
