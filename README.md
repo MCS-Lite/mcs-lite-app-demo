@@ -8,7 +8,7 @@
 
 > One click deploys to △ now
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/MCS-Lite/mcs-lite-app-demo)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/MCS-Lite/mcs-lite-app-demo&docker=true)
 
 
 | **Step 1** | **Step 2** | **Step 3** |  **Step 4** |
