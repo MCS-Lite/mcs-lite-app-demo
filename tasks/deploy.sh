@@ -12,15 +12,18 @@ alias await-url="node_modules/.bin/await-url"
 
 # 0. Use team
 now switch $TEAM --token "$NOW_TOKEN"
+now-purge -t "$NOW_TOKEN" --team $TEAM # make sure there is quato
 
 # 1. Wair for deployment ready
 URL=$(now --public --token "$NOW_TOKEN")
 await-url "$URL"
-now ls mcs-lite-app-demo --token "$NOW_TOKEN"
+now ls --token "$NOW_TOKEN"
 
-# 2. Alias and purge
+# 2. Alias
 now alias set "$URL" "$ALIAS" --token "$NOW_TOKEN"
-now-purge -t "$NOW_TOKEN" --team $TEAM
 
 # 3. Scale to 1
-now scale $ALIAS 1 --token "$NOW_TOKEN"
+now scale "$ALIAS" 1 --token "$NOW_TOKEN"
+
+# 4. Purge
+now-purge -t "$NOW_TOKEN" --team $TEAM

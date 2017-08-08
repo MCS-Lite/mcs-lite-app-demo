@@ -1,4 +1,17 @@
-# mcs-lite-app-demo [![TravisCI](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo.svg?branch=master)](https://travis-ci.org/MCS-Lite/mcs-lite-app-demo) [![Github Tag][githubTag-badge]][githubTag] [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)][dockerhub] [![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)][dockerhub] [![Greenkeeper badge](https://badges.greenkeeper.io/MCS-Lite/mcs-lite-app-demo.svg)](https://greenkeeper.io/)
+# mcs-lite-app-demo 
+
+[![Travis][travis-badge]][travis]
+[![Github Tag][githubTag-badge]][githubTag]
+[![Docker Automated build][dockerhub-auto-badge]][dockerhub]
+[![Docker Build Status][dockerhub-badge]][dockerhub]
+
+[![Dependency Status][dependency-badge]][dependency]
+[![devDependency Status][devDependency-badge]][devDependency]
+[![peerDependency Status][peerDependency-badge]][peerDependency]
+[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
+[![prettier][prettier-badge]][prettier]
+[![license][license-badge]][license]
+
 
 > Quick demo for mcs-lite-app: [mcs-lite-app.now.sh](https://mcs-lite-app.now.sh)
 
@@ -30,7 +43,7 @@ $ git clone https://github.com/MCS-Lite/mcs-lite-app-demo.git
 $ docker build -t mcslite/mcs-lite-app .
 ```
 
-Or, directly pull the image from [Dockerhub](https://hub.docker.com/r/mcslite/mcs-lite-app/):
+Or, directly pull the image from [Dockerhub][dockerhub]:
 
 ```
 # Latest
@@ -82,6 +95,22 @@ $ now scale mcs-lite-app.now.sh 1
 -   yarn >= 0.27.5
 
 
+[travis-badge]: https://img.shields.io/travis/MCS-Lite/mcs-lite-app-demo/master.svg?style=flat-square
+[travis]: https://travis-ci.org/MCS-Lite/mcs-lite-app-demo
+[dependency-badge]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
+[dependency]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo
+[devDependency-badge]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo/dev-status.svg?style=flat-square
+[devDependency]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo#info=devDependencies
+[peerDependency-badge]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo/peer-status.svg?style=flat-square
+[peerDependency]: https://david-dm.org/MCS-Lite/mcs-lite-app-demo#info=peerDependencies
 [githubTag-badge]: https://img.shields.io/github/tag/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
-[githubTag]: https://github.com/MCS-Lite/mcs-lite-app-demo/releases
+[githubTag]: ./CHANGELOG.md
+[license-badge]: https://img.shields.io/github/license/MCS-Lite/mcs-lite-app-demo.svg?style=flat-square
+[license]: http://michaelhsu.mit-license.org/
+[greenkeeper-badge]: https://badges.greenkeeper.io/MCS-Lite/mcs-lite-app-demo.svg
+[greenkeeper]: https://greenkeeper.io/
+[dockerhub-auto-badge]: https://img.shields.io/docker/automated/mcslite/mcs-lite-app.svg
+[dockerhub-badge]: https://img.shields.io/docker/build/mcslite/mcs-lite-app.svg
 [dockerhub]: https://hub.docker.com/r/mcslite/mcs-lite-app/
+[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
+[prettier]: https://github.com/prettier/prettier
