@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- chore(CI): update deploy scripts
+
 ## 1.0.7 (2017-08-04)
 
 - feat(Image): add support for wss.

@@ -7,7 +7,7 @@ WORKDIR /app
 
 # Script
 RUN curl -L $RELEASE_URL | tar zx --strip-components 2
-RUN ls -A
+RUN ls -lA
 
 # Expose
 EXPOSE 3000 8000
