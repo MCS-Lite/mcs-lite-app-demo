@@ -5,7 +5,7 @@ set -ex
 # ENV Variables, Note: NOW_TOKEN in travisCI
 # NOW config
 TEAM='mcs-lite'
-PROJECT='mcs-lite-app'
+PROJECT='mcs-lite-app-demo'
 ALIAS='mcs-lite-app.now.sh'
 
 export PATH="./node_modules/.bin:$PATH"
