@@ -212,9 +212,9 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-now@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/now/-/now-7.3.0.tgz#c20b75fe8e40a3e84b3820aaaabe4ebea5b9f14a"
+now@^11.4.4:
+  version "11.4.4"
+  resolved "https://registry.yarnpkg.com/now/-/now-11.4.4.tgz#ce8ea544cb4d6069e4af0e3474e7ca2e40c6db6c"
 
 number-is-nan@^1.0.0:
   version "1.0.1"
