@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "await-url": "^0.3.0",
-    "now": "^7.3.0"
+    "now": "^12.0.1"
   }
 }
